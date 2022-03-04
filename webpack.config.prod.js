@@ -6,8 +6,8 @@ module.exports = {
   output: {
     ////__dirname= webpack.config.js가 위치하고 있는 경로를 알려주는 변수,
     ///두번째 인자는 최종적인 결과물의 위치
-    path: path.resolve(__dirname, "public"),
-    filename: "index_bundle .js",
+    path: path.resolve(__dirname, "public/dist"),
+    filename: "index_bundle.js",
   },
 
   //// webpack --entry ./source/index.js ==output =path ./public/index_bundle.js

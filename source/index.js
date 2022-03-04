@@ -4,4 +4,6 @@
 
 import a from "./hello.js";
 import b from "./world.js";
+import css from "./style.css";
 document.querySelector("#root").innerHTML = a + b;
+console.log(css, "<");
